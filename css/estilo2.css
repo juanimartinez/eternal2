@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Roboto:wght@400;700&display=swap');
+
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	color: #ECBC26
+}
+h2{
+	font-family: 'Overlock SC', cursive;
+		font-size: 60px;
+	color: #ECBC26
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #EAE8CD;
+	font-family: 'Roboto', sans-seri
+}
+
+main{
+	width: 940px;
+	height: 700px;
+	margin: auto;
+}
+
+header{
+	width: 940px;
+	height: 70px;
+	background-color: #DFDCD0;
+}
+
+article{
+	width: 940px;
+	height: 560px;
+	background-image: url(../img/fondo2.png);
+	
+}
+
+
+	.titulo{
+		margin-left: 32px;
+		width: 940px;
+		height: 150px;
+		float: top;
+	}
+	.texto{
+		width: 490px;
+		height: 320px; 
+		color: #000000
+	}
+	p{
+		color: #000000;
+		font-size: 18px;
+		margin-left: 32px;
+	}
+
+.galeria{
+	width: 940 px;
+	height: 450px;
+	display: inline-block;
+}
+
+
+
+
+.logoet{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+	.logoet img{
+		padding-left: 32px;
+		transition: 0.3s;
+
+	}
+
+.logoet img:hover{
+	transform: scale(1.2);
+}
+
+.navbar{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: right;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+
+a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 14px;
+}
+
+.leermas{
+	border: 1px solid #ECBC26;
+	margin-left: 32px;
+	padding: 10px;
+	background-color: #ECBC26;
+	color: white;
+	text-decoration: none;
+	border-radius: 50px;
+	display: inline-block;
+	transition: 0.3s;font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-align: right;
+    padding: 9px;
+}
+.leermas:hover{
+	transform: scale(1.2);
+}
+
+.navbar li{
+	display:inline-block;
+    width:80px;
+    padding:10px 25px;
+    margin: 10px;
+    text-align:right;
+    color:#000;
+    float: right;
+   font-weight: bold;
+   padding-bottom: 3px;
+
+}
+
+.navbar li:hover{
+	 color:#e8a600;
+    text-align:right;
+    font-weight: bolder;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+/*FOOTER*/
+footer{
+	width: 940px;
+	height: 70px;
+	background-color: #DFDCD0;
+	vertical-align: auto;
+	}
+.footer{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: left;
+}
+
+
+	h3{
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		color: #000;
+		margin: 15px;
+		text-align: right;
+	}
+
+
+/*X-LARGE*/
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #EAE8CD;
+	font-family: 'Roboto', sans-seri
+}
+
+main{
+	width: 1200px;
+	height: 700px;
+	margin: auto;
+}
+
+header{
+	width: 1200px;
+	height: 70px;
+	background-color: #DFDCD0;
+}
+
+article{
+	width: 1200px;
+	height: 560px;
+	background-image: url(../img/fondo2_rspxl.png);
+	
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	color: #ECBC26;
+	margin-top: 96px;
+}
+h2{
+	font-family: 'Overlock SC', cursive;
+		font-size: 60px;
+	color: #ECBC26
+}
+	.titulo{
+		margin-left: 32px;
+		width: 1200px;
+		height: 150px;
+		float: top;
+	}
+	.texto{
+		width: 490px;
+		height: 320px; 
+		color: #000000
+	}
+	p{
+		color: #000000;
+		font-size: 18px;
+		margin-left: 32px;
+	}
+
+
+
+.logoet{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+	.logoet img{
+		padding-left: 32px;
+		transition: 0.3s;
+
+	}
+
+.logoet img:hover{
+	transform: scale(1.2);
+}
+
+.navbar{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: right;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+
+a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 14px;
+}
+
+.leermas{
+	border: 1px solid #ECBC26;
+	margin-left: 32px;
+	padding: 10px;
+	background-color: #ECBC26;
+	color: white;
+	text-decoration: none;
+	border-radius: 50px;
+	display: inline-block;
+	transition: 0.3s;font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-align: right;
+    padding: 9px;
+}
+.leermas:hover{
+	transform: scale(1.2);
+}
+
+.navbar li{
+	display:inline-block;
+    width:80px;
+    padding:10px 25px;
+    margin: 10px;
+    text-align:right;
+    color:#000;
+    float: right;
+   font-weight: bold;
+   padding-bottom: 3px;
+
+}
+
+.navbar li:hover{
+	 color:#e8a600;
+    text-align:right;
+    font-weight: bolder;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+/*FOOTER*/
+footer{
+	width: 1200px;
+	height: 70px;
+	background-color: #DFDCD0;
+	vertical-align: auto;
+	}
+.footer{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: left;
+}
+
+
+	h3{
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		color: #000;
+		margin: 15px;
+		text-align: right;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Tablets*/
+
+
+@media (min-width: 768px ) and (max-width: 991px) {
+
+body{
+	background-color: #EAE8CD;
+	font-family: 'Roboto', sans-seri
+}
+
+main{
+	width: 768px ;
+	height: 900px;
+	margin: auto;
+}
+
+header{
+	width: 768px ;
+	height: 70px;
+	background-color: #DFDCD0;
+}
+
+article{
+	width: 768px ;
+	height: 660px;
+	background-image: url(../img/fondo2_rsptblt.png);
+	
+}
+footer{
+	width: 768px ;
+	height: 70px;
+	background-color: #DFDCD0;
+	vertical-align: auto;
+	}
+.footer{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: left;
+}
+h3{
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		color: #000;
+		margin: 15px;
+		text-align: right;
+	}
+
+.logoet{
+	width: 768px ;
+	height: 70px;
+	background-color: #DFDCD0;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+	.logoet img{
+		padding-left: 32px;
+		transition: 0.3s;
+
+	}
+
+.logoet img:hover{
+	transform: scale(1.2);
+}
+
+.navbar{
+	width: 768px ;
+	height: 70px;
+	background-color: #DFDCD0;
+	text-align: center;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.navbar li{
+	display:inline-block;
+    width:205px;
+    padding:10px;
+    text-align:center;
+    color:#000;
+   font-weight: bold;
+   padding-bottom: 3px;
+}
+
+li{
+	display: inline-block;
+	text-align: center;
+}
+h1{
+	margin-top: 330px;
+	margin-right: 59px;
+	text-shadow: 1px 2px 5px black;
+}
+h2{
+	text-shadow: 1px 2px 5px black;
+	margin-right: 71px;
+}
+
+.leermas{
+	margin-left:197px; 
+}
+.textos{
+width: 100%;
+height: 75	;
+}
+
+
+
+	.titulo{
+		
+		width: 768px ;
+		height: 150px;
+		text-align: center;
+	}
+	.texto{
+		width: 490px;
+		height: 320px; 
+		color: #000000;
+		text-align: center;
+	}
+	p{
+		color: #000000;
+		font-size: 18px;
+		margin-left: 119px;
+		text-align: center;
+		width: 467px;
+		display: inline-block;	
+	}
+
+
+.jim{
+	width: 768px ;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Small (mobiles, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767px) {
+body{
+	background-color: #EAE8CD;
+	font-family: 'Roboto', sans-seri
+}
+
+main{
+	width: 576px;
+	height: 900px;
+	margin: auto;
+}
+
+header{
+	width: 576px;
+	height: 70px;
+	background-color: #DFDCD0;
+}
+
+article{
+	width: 576px;
+	height: 660px;
+	background-image: url(../img/fondo2_rsp.png);
+	
+}
+footer{
+	width: 576px;
+	height: 70px;
+	background-color: #DFDCD0;
+	vertical-align: auto;
+	}
+.footer{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: left;
+}
+h3{
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		color: #000;
+		margin: 15px;
+		text-align: right;
+	}
+
+.logoet{
+	width: 576px;
+	height: 70px;
+	background-color: #DFDCD0;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+	.logoet img{
+		padding-left: 32px;
+		transition: 0.3s;
+
+	}
+
+.logoet img:hover{
+	transform: scale(1.2);
+}
+
+.navbar{
+	width: 576px;
+	height: 70px;
+	background-color: #DFDCD0;
+	text-align: center;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.navbar li{
+	display:inline-block;
+    width:148px;
+    padding:10px;
+    text-align:center;
+    color:#000;
+   font-weight: bold;
+   padding-bottom: 3px;
+}
+
+li{
+	display: inline-block;
+	text-align: center;
+}
+h1{
+	margin-top: 330px;
+	text-shadow: 1px 2px 5px black;
+}
+h2{
+	text-shadow: 1px 2px 5px black;
+}
+
+
+.textos{
+width: 100%;
+height: 75	;
+}
+
+
+
+	.titulo{
+		
+		width: 576px;
+		height: 150px;
+		text-align: center;
+	}
+	.texto{
+		width: 490px;
+		height: 320px; 
+		color: #000000;
+		text-align: center;
+	}
+	p{
+		color: #000000;
+		font-size: 18px;	
+	}
+
+
+.jim{
+	width: 576px;
+}
+
+
+}
+

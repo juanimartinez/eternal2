@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Roboto:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #EAE8CD;
+	font-family: 'Roboto', sans-seri
+}
+
+main{
+	width: 940px;
+	height: 700px;
+	margin: auto;
+}
+
+header{
+	width: 940px;
+	height: 70px;
+	background-color: #DFDCD0;
+}
+
+article{
+	width: 940px;
+	height: 560px;
+	background-image: url(../img/fondo.png);
+	
+}
+
+h2{
+	font-family: 'Overlock SC', cursive;
+	font-size: 60px;
+	color: #ffd400;
+	text-align: center;
+	text-shadow: 1px 2px 5px grey;
+}
+
+.texto{
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+
+.logoet{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+	.logoet img{
+		padding-left: 32px;
+		transition: 0.3s;
+
+	}
+
+.logoet img:hover{
+	transform: scale(1.2);
+}
+
+.navbar{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: right;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+
+a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 14px;
+}
+
+.navbar li{
+	display:inline-block;
+    width:80px;
+    padding:10px 25px;
+    margin: 10px;
+    text-align:right;
+    color:#000;
+    float: right;
+   font-weight: bold;
+   padding-bottom: 3px;
+
+}
+
+.navbar li:hover{
+	 color:#e8a600;
+    text-align:right;
+    font-weight: bolder;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+/*FOOTER*/
+footer{
+	width: 940px;
+	height: 70px;
+	background-color: #DFDCD0;
+	vertical-align: auto;
+	}
+.footer{
+	width: 470px;
+	height: 70px;
+	background-color: #DFDCD0;
+	float: left;
+}
+
+
+	h3{
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		color: #000;
+		margin: 15px;
+		text-align: right;
+	}
